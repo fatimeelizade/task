@@ -1,0 +1,31 @@
+@import "./scss/partials/mixins";
+@import "./scss/partials/envato-market";
+@import "./scss/partials/able-pro";
+@import "./scss/partials/footer-connect";
+@import "./scss/partials/section-able-pro";
+@import "./scss/partials/section-apps";
+@import "./scss/partials/section-companies";
+@import "./scss/partials/section-complete";
+@import "./scss/partials/section-dashboard";
+@import "./scss/partials/section-icons";
+@import "./scss/partials/section-technologies";
+@import "./scss/partials/section-try";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f9fa;
+}
+main{
+    padding-top: 230px;
+    @media only screen and (max-width: 844px){
+        width: 1400px;
+    }
+}
+.footer{
+    @media only screen and (max-width: 844px){
+        width: 1400px;
+    }
+}

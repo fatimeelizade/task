@@ -1,0 +1,60 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+.title{
+    font-size: 40px;
+    @include text-display();
+    @media only screen and (max-width: 844px){
+        font-size: 55px;
+    }
+
+}
+.info{
+    @include text-display();
+    font-size: 20px;
+    width: 750px;
+    color: rgb(72, 72, 72);
+    margin-top: 40px;
+}
+.btn{
+    @include buttons1();
+    color:rgb(72, 72, 72);
+    border:1px rgb(72, 72, 72) solid ;
+    margin-left: -170px;
+    margin-top: 50px;
+}
+.btn1{
+    @include buttons1();
+    border:1px #4680ff solid ;
+    background-color: #4680ff;
+    color: white;
+    margin-left: 130px;
+    margin-top: -40px;
+}
+.buttons{
+    display: flex;
+    text-align: center;
+}
+.ratings{
+    font-size: 20px;
+    @include text-display();
+    margin-left: -190px;
+    margin-top: 50px;
+}
+.customers{
+    margin-left: 90px;
+    font-size: 20px;
+    @include text-display();
+}
+.sales{
+    margin-left: 90px;
+    @include text-display();
+    margin-top: -45px;
+}
+.click{
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,30 @@
+.try{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.btn-pro-version{
+    @include buttons1();
+    color: #5b6c79;
+    border: 1px solid #5b6c79;
+    margin-right: 10px;
+    transition: background-color 0.8s, color 0.8s;
+}
+.btn-pro-version:hover{
+    background-color: #5b6c79;
+    color: white;
+}
+.btn-free-version{
+    @include buttons1();
+    color: white;
+    background-color: #4680ff;
+}
+.buttons-try{
+    display: flex;
+}
+.title-try{
+    margin-bottom: 20px;
+    font-size: 20px;
+}

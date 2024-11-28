@@ -1,0 +1,35 @@
+.first-part{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    @media only screen and (max-width: 844px){
+        width: 100%;  
+    }
+}
+.logo{
+    width: 10%;
+    margin: 20px;
+    img{
+        max-width: 100%;
+    }
+    @media only screen and (max-width: 844px){
+        width: 15%;
+        margin-left:70px ;
+    }
+}
+
+.first-btn{
+    margin: 20px;
+    a{
+        text-decoration: none;
+        background-color: #82B440;
+        border-radius: 2px;
+        color: white;
+        padding: 10px 20px;
+    }
+    @media only screen and (max-width: 844px){
+        font-size: 24px;
+        margin-right:70px ;
+    }
+}

@@ -1,0 +1,36 @@
+.img-companies{
+    opacity: 0.5;
+    transition:opacity 0.1s ;
+}
+.img-companies:hover{
+    opacity: 1;
+}
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.first-part-companies{
+    display: flex;
+    gap: 40px;
+}
+.second-part-companies{
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+.title-client-companies{
+    font-size: 23px;
+    text-align: center;
+}
+.info-client-companies{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.client-companies{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

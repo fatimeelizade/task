@@ -1,0 +1,11 @@
+@mixin buttons1(){
+    text-decoration: none;
+    border-radius: 19px;
+    padding: 10px 8px;
+    font-size: 16px;
+    
+}
+@mixin text-display(){
+    display: flex;
+    text-align: center;
+}

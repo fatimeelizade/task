@@ -1,0 +1,49 @@
+
+.tailwind{
+    
+    margin-left: 90px;
+    
+}
+.items img{
+    width: 63px;
+}
+.technologies{
+    margin-top: 120px;
+}
+.sub-title{
+    text-align: center;
+    font-size: 26px;
+}
+.explore{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 19px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+.templates{
+    border:1px solid #e8eaee;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px; 
+    padding-left: 20px;
+    margin: 10px 10px;
+    background-color: white;
+}
+.col-4{
+    width: calc(100%*4/12);
+    
+}
+.btn-preview{
+    text-decoration: none;
+    color: black;
+    background-color: #e9e9ea;
+    padding: 11px 26px;
+    font-size: 17px;
+    border-radius: 20px;
+}
